@@ -49,7 +49,7 @@ def get_Weather(LocationName: str) -> str:
         "結束觀測時間": EndTime,
         "降雨機率": PoP,
         "最低溫度": MinT,
-        "最高溫都": MaxT,
+        "最高溫度": MaxT,
     }
 
     return datalist
